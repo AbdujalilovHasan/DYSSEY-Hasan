@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.nav-row {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 48px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    color: #020305;
+}
+
+.nav-btn button {
+    padding: 22px 52px;
+    background: #000;
+    box-shadow: 0px 19px 45px -10px #0D0F12;
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 102px;
+    position: relative;
+}
+
+.header-bg-img {
+    background-image: url('../img/Rectangle\ 3.png');
+    background-position: center;
+    background-size: cover;
+    height: 533px;
+    border-radius: 40px;
+}
+
+.header-bg-img-content {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-family: Plus Jakarta Sans;
+    width: 411px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.header-btn-row {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin-top: 40px;
+}
+
+.header-btn1 button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 12px;
+    background: #0D0F12;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+}
+
+.header-btn2-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-left-bottom-texts {
+    width: 521px;
+    font-family: Plus Jakarta Sans;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.header-img2 {
+    position: absolute;
+    top: -540px;
+    left: 620px;
+}
+
+.header-position-content1 {
+    position: absolute;
+    top: -150px;
+    left: 520px;
+    z-index: 2;
+}
+
+.header-position-content2 {
+    position: absolute;
+    top: -200px;
+    left: 1080px;
+    z-index: 2;
+}
+
+.header-position-content3 {
+    position: absolute;
+    top: 180px;
+    left: 740px;
+    z-index: 2;
+}
+
+.company-row {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    justify-content: center;
+}
+
+.company-logo {
+    cursor: pointer;
+}
+
+.section-row {
+    margin-top: 120px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+    align-items: start;
+}
+
+.section-left h1 {
+    width: 573px;
+    font-family: Plus Jakarta Sans;
+    font-size: 54px;
+}
+
+.section2-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.section2-card {
+    width: 280px;
+}
+
+.section2-card h4 {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.section2-card p {
+    font-family: Plus Jakarta Sans;
+    margin-top: 10px;
+}
+
+.section-bg-img2 {
+    margin-top: 120px;
+    position: relative;
+}
+
+.section2-bg-img {
+    background-image: url('../img/Rectangle\ 8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 533px;
+    border-radius: 40px;
+    z-index: -999;
+}
+
+.section2-bg-img-content {
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    text-align: center;
+    font-size: 28px;
+    width: 1120px;
+}
+
+.section-bg-img2-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin-top: 20px;
+}
+
+.bg-img2-card {
+    width: 452px;
+    height: 434px;
+    border-radius: 24px;
+    box-shadow: 0px 20px 39px -12px #63757C;
+    padding: 52px;
+}
+
+.bg-img2-card h1 {
+    color: #A9C2CB;
+    font-size: 64px;
+    font-family: Plus Jakarta Sans;
+}
+
+.bg-img2-card h4 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.bg-img2-card p {
+    color: #171E27;
+    font-size: 18px;
+    font-family: Plus Jakarta Sans;
+    margin-top: 30px;
+
+}
+
+.section-bg-img3 {
+    margin-top: 180px;
+    position: relative;
+}
+
+.bg-img3 {
+    background-image: url('../img/Rectangle\ 504.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 533px;
+    border-radius: 40px;
+}
+
+form {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+form input {
+    padding: 26px 32px;
+    border-radius: 24px;
+    border: none;
+    width: 649px;
+    height: 82px;
+    font-size: 24px;
+    font-family: Plus Jakarta Sans;
+    outline: none;
+}
+
+form input::placeholder {
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    color: 171E27;
+}
+
+form button {
+    padding: 26px 54px;
+    font-family: Plus Jakarta Sans;
+    color: #fff;
+    background: #A9C2CB;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bg-img3-content h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 64px;
+    color: #fff;
+}
+
+.bg-img3-content p {
+    color: #fff;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    width: 735px;
+}
+
+.bg-img3-content {
+    position: absolute;
+    top: 121px;
+    left: 120px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    gap: 150px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 109px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #020305;
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+}
+
+.footer-bottom-link {
+    text-align: center;
+    margin-top: 80px;
+    color: #5C5050;
+    margin-bottom: 80px;
+}
